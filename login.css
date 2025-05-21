@@ -1,0 +1,71 @@
+.Page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+  gap: 100px;
+}
+h1 {
+  color: #1877f2;
+  font-size: 65px;
+  margin-bottom: 0%;
+}
+#details {
+  font-size: 25px;
+  width: 400px;
+}
+.rightinner{
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 95%;
+}
+#login {
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+.forgot {
+  color: #1877f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+hr{
+  border: 1px solid #ccc;
+  width: 320px;
+}
+#create {
+  background-color: #42b72a;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  text-transform: none;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  width: 210px;
+  align-self: center;
+}
+#ref{
+   align-items: center;
+   font-size: 17px;
+   width: 400px;
+   margin-top: 20px;
+   margin-left: 35px;
+}
